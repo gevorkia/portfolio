@@ -2387,7 +2387,8 @@ input, select, textarea {
 		.image.fit {
 			display: block;
 			margin: 0 0 2em 0;
-			width: 100%;
+			width: 20%;
+			height: 100%;
 		}
 
 			.image.fit img {
@@ -2917,9 +2918,14 @@ input, select, textarea {
 		background-color: #4686a0;
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
-		background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2);
-		background-position: top left,						center center,					center center;
-		background-size: auto,							cover,							cover;
+		/* background-image: url("images/overlay2.png"), url("images/overlay3.svg"), linear-gradient(45deg, #9dc66b 5%, #4fa49a 30%, #4361c2); */
+		/* background-image: url("./images/morro_rock.jpg"); */
+		background-image: url("./images/flowers.jpg");
+		/* opacity: 0.9; */
+		/* background-image: url("./images/jennie_lakes.jpg"); */
+		background-position: 100%;
+		/* background-position: top left,						center center,					center center; */
+		background-size: cover;
 		overflow: hidden;
 		position: relative;
 		text-align: center;
@@ -3510,3 +3516,14 @@ input, select, textarea {
 			}
 
 	}
+
+/* my CSS */
+
+.intro-wrapper  {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: auto;
+	width: 20%;
+	background-color: rgb(44, 67, 42);
+	opacity: 0.85;
+}
